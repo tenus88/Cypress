@@ -29,8 +29,8 @@ public class MovieApiTest {
         then()
                 .statusCode(is(200) )
                 .contentType(ContentType.JSON)
-                .body("Runtime", is("101 min"))
-                .body("Director", is("Paul W.S. Anderson"))
+                .body("Runtime", is("110 min"))
+                .body("Director", is("Simon McQuoid"))
                 .body("Country", is("United States"))
 
         ;
